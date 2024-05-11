@@ -51,13 +51,13 @@
 }
 
 .perfil-img{
-    height: 23rem;
-    width: 23rem;
-    border-radius: 50%;
+    height: 25rem;
+    width: 30rem;
+    border-radius: 40%;
     border: 0.125rem solid #F2668B;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 50rem) {
     .perfil{
         padding: 0 2rem 0 2rem;
         width: fill;
@@ -69,10 +69,10 @@
     }
 }
 
-@media (max-width: 390px){
+@media(max-width: 25rem){
     .perfil{
         display: flex;
-        flex-direction: column;        
+        flex-direction: column-reverse;        
     }
     .perfil-img{
         width: 6.125rem;

@@ -4,12 +4,13 @@
     align-items: start;
     justify-content: space-around;
     padding: 0 5rem;
-    margin: 3.125rem 3.125rem 0 3.125rem;
+    margin: 0rem 3.125rem 3.125rem 3.125rem;
     gap: 0.625rem;
+    
 }
 
 .sobre-divisao{
-   margin-right: 400px;
+    /* margin-right: 350px; */
 }
 
 .sobre-titulo{
@@ -24,7 +25,52 @@
     margin-bottom: 1rem;
 }
 .sobre-img{
-    height: 3.25rem;
-    width: 8.75rem;
+    height: 23rem;
+    width: 23rem;
+    border-radius: 40%;
+
 }
 
+@media (max-width: 50rem){
+    .sobre-divisao{
+            margin: 0px;
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+        }
+
+    .sobre{
+            display: flex;
+            align-items: center;
+            padding: 0px; 
+            
+        }
+    .sobre-img{
+            width: 10rem;
+            height: 10rem;
+        }
+}
+
+
+
+
+@media (max-width:25rem){
+    .sobre-divisao{
+            margin: 0px;
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+        }
+
+    .sobre{
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            padding: 0px;   
+                
+        }
+    .sobre-img{
+            width: 6.125rem;
+            height: 6.125rem;
+        }
+}
