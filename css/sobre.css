@@ -1,0 +1,30 @@
+.sobre{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-around;
+    padding: 0 5rem;
+    margin: 3.125rem 3.125rem 0 3.125rem;
+    gap: 0.625rem;
+}
+
+.sobre-divisao{
+   margin-right: 400px;
+}
+
+.sobre-titulo{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--cortitulo);
+}
+.sobre-paragrafo{
+    font-size: 1.375rem;
+    font-weight: 200;
+    margin-bottom: 1rem;
+}
+.sobre-img{
+    height: 3.25rem;
+    width: 8.75rem;
+}
+

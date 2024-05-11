@@ -1,0 +1,50 @@
+header{
+    background-color: var(--cor1);
+    height: 3.75rem;
+    padding: 0 20px; /*é uma distância interna*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo-img{
+    height: 1.5rem;
+    width: 1.5rem;    
+}
+.menu-title{
+    font-weight: bold;
+}
+.menu-lista{
+    display: none;
+}
+
+.menu-lista-item:nth-child(6){
+    font-weight:bold;
+}
+
+
+@media (min-width: 1024px){
+    header{
+        padding: 10px 100px;
+
+    }
+    .logo{
+        font-size: 1rem;
+    }
+    .menu-lista{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+
+    }
+    .menu-lista-item-c{
+        display: none;
+    }
+}
