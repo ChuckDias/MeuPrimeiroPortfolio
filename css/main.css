@@ -19,8 +19,7 @@ body{
     overflow-x: hidden;
 }
 
-main{
-    display: flex;
-    flex-direction:column;
-    align-items: center;
+section {
+    padding: 5rem 9% 2rem;
 }
+
