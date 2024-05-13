@@ -32,6 +32,13 @@
     font-size: 1.2rem;
 }
 
+.perfil-img{
+    height: 25rem;
+    width: 30rem;
+    border-radius: 40%;
+    border: 0.125rem solid #F2668B;
+}
+
 @media (max-width: 1333px) {
     .perfil-container h2 {
         font-size: 1.7rem;

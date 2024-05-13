@@ -9,10 +9,6 @@
     
 }
 
-.sobre-divisao{
-    /* margin-right: 350px; */
-}
-
 .sobre-titulo{
     margin-bottom: 1rem;
     font-size: 2rem;
@@ -32,23 +28,21 @@
 }
 
 @media (max-width: 50rem){
-    .sobre-divisao{
-            margin: 0px;
-            display: flex;
-            flex-direction: column; 
-            align-items: center;
-        }
+    .sobre-container h2 {
+        font-size: 1.7rem;
+    }
+    
+    .sobre-container p {
+        font-size: 1.1rem;
+    }
 
-    .sobre{
-            display: flex;
-            align-items: center;
-            padding: 0px; 
-            
-        }
-    .sobre-img{
-            width: 10rem;
-            height: 10rem;
-        }
+    .sobre-redes-container li{
+        font-size: 1.1rem;
+    }
+    .sobre-img {
+        height: 9.125rem;
+        width: 9.125rem;
+    }
 }
 
 
